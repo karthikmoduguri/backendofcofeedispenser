@@ -1,0 +1,15 @@
+{
+  "name": "backendpart",
+  "version": "1.0.0",
+  "description": "backend of the coffee project",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "author": "karthik",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
